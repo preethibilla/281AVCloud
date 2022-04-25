@@ -113,8 +113,8 @@ class AddPlan extends Form {
     return (
         <div className='add-plan-form-container'>
           <div className='add-plan-content'>
-            <div className='form-container'>
-              <h1 className="text-center">Add Plan</h1>
+            <div className='form-container' style={{fontFamily: "cursive" }}>
+              <h1 className="text-center" style={{fontFamily: "cursive" }}>Add Plan</h1>
               <p style={{fontSize: "25px", marginTop: "30px"}}>
                 <strong>Cycle: </strong> {this.state.startDate} - {this.state.endDate}
               </p>

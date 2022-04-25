@@ -56,8 +56,8 @@ class DeleteVehicle extends Form {
     return(
         <div className='vehicle-form-container'>
             <div className='vehicle-content'>
-                <div className='form-container'>
-                    <h1 className="text-center"> Delete a Vehicle</h1>
+                <div className='form-container' style={{fontFamily: "cursive" }}>
+                    <h1 className="text-center" style={{fontFamily: "cursive" }}> Delete a Vehicle</h1>
                     <form onSubmit={this.handleSubmit}>
                         {this.renderInput("vId", "VID")}
                         <div className='button-cont d-flx justify-content-center'>

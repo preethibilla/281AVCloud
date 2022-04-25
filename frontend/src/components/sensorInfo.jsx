@@ -123,12 +123,12 @@ class SensorInfo extends Component {
     render() {
         return (
             <div className='sensor-info-container'>
-                <div className='sensor-info-heading'>
+                <div className='sensor-info-heading' style={{fontFamily: "cursive" }}>
                     <h1>
                         Additional Sensor Information
                     </h1>
                 </div>
-                <div className='sensor-info-content-container'>
+                <div className='sensor-info-content-container' style={{fontFamily: "cursive" }}>
                     <div className='info-card'>
                         <div className='label'>Vehicle</div>
                         <div className='value'> {this.state.vehicle}</div>

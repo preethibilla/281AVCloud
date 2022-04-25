@@ -12,7 +12,7 @@ class TableHeader extends Component {
               style={{
                 fontSize: "22px",
                 paddingLeft: "25px",
-                fontFamily: "Courier",
+                fontFamily: "cursive",
               }}
             >
               {column.label}

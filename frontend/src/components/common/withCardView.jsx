@@ -6,7 +6,7 @@ const withCardView = (CustomComponent) => {
       const { style, ...rest } = this.props;
       return (
         <div className="card border-info mb-3" style={style}>
-          <div className="card-body">
+          <div className="card-body" style={{fontFamily: "cursive" }}>
             <CustomComponent {...rest}></CustomComponent>
           </div>
         </div>

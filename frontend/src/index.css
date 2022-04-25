@@ -33,6 +33,7 @@ main.main-container {
 .form-group label {
   width: 25%;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .alert.alert-danger {
@@ -64,13 +65,13 @@ main.main-container {
 .btn.btn-info {
   padding: 0.7rem 5rem;
   text-transform: uppercase;
-  background: #fb8c00!important;
-  border: 1px solid #fb8c00!important;
+  background: #020200!important;
+  border: 1px solid #020200!important;
 }
 
 .btn.btn-info:disabled {
-  background: #fb8c00!important;
-  border: 1px solid #fb8c00!important;
+  background: #020200!important;
+  border: 1px solid #020200!important;
 }
 
 .h100 {

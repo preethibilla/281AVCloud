@@ -11,7 +11,7 @@ class AdminDashboard extends Component {
         return (
             <div className='admin-container'>
                 <div className='admin-heading'>
-                    <h1 className="text-center" style={{ marginBottom: "25px" }}>
+                    <h1 className="text-center" style={{ fontFamily: "cursive", marginBottom: "25px" }}>
                         Admin Dashboard
                     </h1>
                 </div>

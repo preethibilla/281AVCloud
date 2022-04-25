@@ -43,7 +43,7 @@ class Register extends Form {
             <div className='background'/>
           </div>
           <div className='register-content'>
-           <div className='form-container'>
+           <div className='form-container' style={{fontFamily: "cursive" }}>
              <h1 className="text-center">Register</h1>
              <form onSubmit={this.handleSubmit}>
                {this.renderInput("name", "Name")}

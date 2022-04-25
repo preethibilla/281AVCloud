@@ -63,7 +63,7 @@ const NavBar = () => {
             </React.Fragment>
           )}
         </ul>
-        <ul className="navbar-nav px-3 ml-auto">
+        <ul className="navbar-nav px-3 ml-auto" style={{fontFamily: "cursive", fontSize: "25px" }}> 
           {!user && (
             <React.Fragment>
               <ListItemNavBar

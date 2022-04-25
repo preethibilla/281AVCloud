@@ -15,7 +15,7 @@ class TableBody extends Component {
                   style={{
                     fontSize: "18px",
                     paddingLeft: "25px",
-                    fontFamily: "Courier",
+                    fontFamily: "cursive",
                   }}
                 >
                   {_.get(item, column.path)}

@@ -39,23 +39,23 @@ class App extends Component {
             <Route path="/login" component={Login}/>
             <Route path="/logout" component={Logout}/>
             <Route path="/register" component={Register}/>
-            <UserRoute path="/myPlan/addPlan" component={AddPlan}/>
-            <UserRoute path="/myPlan" component={MyPlan}/>
-            <UserRoute path="/myStatus" component={UserDashboard}/>
-            <UserRoute path="/mySchedule" component={ScheduleRide}/>
-            <UserRoute
+            <Route path="/myPlan/addPlan" component={AddPlan}/>
+            <Route path="/myPlan" component={MyPlan}/>
+            <Route path="/myStatus" component={UserDashboard}/>
+            <Route path="/mySchedule" component={ScheduleRide}/>
+            <Route
               path="/myVehicles/addVehicle"
               component={AddVehicle}
             />
-            <UserRoute path="/myVehicles" component={VehicleList}/>
-            <UserRoute path="/sensorinfo" component={SensorInfo}/>
-            <UserRoute path="/myRides" component={MyRides}/>
-            <UserRoute
+            <Route path="/myVehicles" component={VehicleList}/>
+            <Route path="/sensorinfo" component={SensorInfo}/>
+            <Route path="/myRides" component={MyRides}/>
+            <Route
               path="/deleteVehicle"
               component={DeleteVehicle}
             />
 
-            <AdminRoute
+            <Route
               path="/dashboard"
               component={AdminDashboard}
             />

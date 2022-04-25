@@ -79,8 +79,8 @@ class ScheduleRide extends Form {
         return (
             <div className='schedule-ride-form-container'>
                 <div className='schedule-ride-content'>
-                    <div className='form-container'>
-                        <h1 className="text-center">Schedule Your Ride</h1>
+                    <div className='form-container' style={{fontFamily: "cursive" }}>
+                        <h1 className="text-center" style={{fontFamily: "cursive" }}>Schedule Your Ride</h1>
                         <form onSubmit={this.handleSubmit}>
                             {this.state.data.vId}
                             {this.renderInput("vId", "VID")}

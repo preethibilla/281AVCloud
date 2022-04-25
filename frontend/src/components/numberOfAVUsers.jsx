@@ -12,7 +12,7 @@ class NumberOfAVUsers extends Component {
   render() {
     return (
       <div className='info-card'>
-        <div className='label'> Number Of AV Users</div>
+        <div className='label' style={{fontFamily: "cursive" }}> Number Of AV Users</div>
         <div className='value'>
           {this.state.userCount}
         </div>

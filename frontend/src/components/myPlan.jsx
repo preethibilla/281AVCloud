@@ -20,7 +20,7 @@ class MyPlan extends Component {
 
     render() {
         return (
-            <div className='user-container'>
+            <div className='user-container' style={{fontFamily: "cursive" }}>
                 <div className='user-heading'>
                     <h1 className="text-center" style={{marginBottom: "25px"}}>
                         My Plans

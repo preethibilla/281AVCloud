@@ -6,12 +6,14 @@
   .register-content {
     max-width: 40rem;
     min-width: 40rem;
-    padding: 2rem;
-    background: whitesmoke;
-    box-shadow: 3px 9px 11px 1px #273438;
+    padding: 4rem;
+    //background: rgb(230, 231, 231);
+    //box-shadow: 3px 9px 11px 1px #161616;
     .text-center {
       text-transform: uppercase;
       margin-bottom: 3rem;
+      color: #111314ee;
+      font-family: cursive;
     }
     .button-cont {
       margin-top: 2.5rem;

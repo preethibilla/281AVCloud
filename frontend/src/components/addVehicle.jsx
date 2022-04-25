@@ -81,7 +81,7 @@ class AddVehicle extends Form {
     return (
         <div className='add-vehicle-form-container'>
           <div className='add-vehicle-content'>
-            <div className='form-container'>
+            <div className='form-container' style={{fontFamily: "cursive" }}>
               <h1 className="text-center">Add a vehicle</h1>
               <form onSubmit={this.handleSubmit}>
                 {this.renderInput("vId", "VID")}
