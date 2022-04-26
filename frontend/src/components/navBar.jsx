@@ -8,7 +8,7 @@ const NavBar = () => {
   const user = auth.getCurrentUser();
 
   return (
-    <div id='navbar' className="navbar navbar-dark bg-dark flex-md-nowrap p-10 shadow navbar-expand-md bg-info">
+    <div id='navbar' className="navbar navbar-dark bg-dark flex-md-nowrap p-10 shadow navbar-expand-md bg-info" style={{fontFamily: "cursive" }}>
       <Link className="navbar-brand col-sm-3 col-md-2 mr-0" to="/">
         AV-CLOUD
       </Link>
