@@ -16,9 +16,9 @@ if (!config.get("jwtPrivateKey")) {
 }
 
 const mongoose = require("mongoose");
-
 mongoose
-  .connect("mongodb+srv://root:root@cluster0.kglve.mongodb.net/sensor_frame_data", {
+  .connect("mongodb+srv://alpha:beta@cluster0.tqwbx.mongodb.net/sensor_frame_data", {
+    
 
     // retry to connect 
     reconnectTries: 1,
